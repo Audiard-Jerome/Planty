@@ -1,0 +1,808 @@
+/* couleur */
+
+:root {
+    --color-pink: #DC9F96;
+    --color-red: #C02E44;
+    --color-pink-bg: #ECE2DA;
+    --color-green: #3B8E46;
+    --color-pink-txt: #D2776A;
+
+}
+
+body {
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background: white;
+    width: 100%;
+    max-width: 1920px;
+}
+
+header li {
+    list-style-type: none;
+    width: 33%;
+    max-width: 236px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header nav {
+    width: 66%;
+}
+
+nav :nth-child(2) {
+    order: 3;
+}
+
+header #menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 236px;
+    height: 80px;
+    background: white;
+    text-decoration: none;
+    color: black;
+    font-family: Syne;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header #menu a:hover {
+    text-decoration: none;
+    color: black;
+    font-family: Syne;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header #menu .btn_commander a {
+    background: var(--color-pink);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Syne;
+    color: white;
+}
+
+
+header #menu .btn_commander a:hover {
+    background: var(--color-red);
+}
+
+
+header .logo a:hover {
+    background: none;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 37px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: white;
+    max-width: 1920px;
+    width: 100%;
+}
+
+footer a {
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+footer li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer a:hover {
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* main */
+
+.post-13 {
+    background: white;
+}
+
+.post-13 .hero-container {
+    padding-top: 80px;
+    background-color: var(--color-pink-bg);
+}
+
+.post-13 .ellipse-planty {
+    height: 100px;
+    width: 100%;
+    background-color: var(--color-pink-bg);
+    border-radius: 0 0 60% 60%;
+    box-shadow: 0 10px 0 #e3d9d0;
+}
+
+.post-13 .hero-container img {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.post-13 .container-energy {
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 90px;
+}
+
+.post-13 .container-energy p {
+    max-width: 500px;
+    padding: 30px;
+}
+
+.post-13 .container-gouts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--color-pink-bg);
+}
+
+.post-13 .container-gouts h2 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.post-13 .container-gouts p {
+    padding-bottom: 48px;
+}
+
+.post-13 .container-saveur {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    max-width: 850px !important;
+    width: 100%;
+}
+
+.post-13 .container-button {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.post-13 .container-button a {
+    display: flex;
+    width: 198px;
+    height: 55px;
+    padding: 9px 57px 9px 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #E0B9B4;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+.post-13 .ellipse-gouts {
+    height: 20px;
+    width: 100%;
+    background-color: var(--color-pink-bg);
+    border-radius: 0 0 60% 60%;
+}
+
+.post-13 .button a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 198px;
+    height: 55px;
+}
+
+.post-13 .container-testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.post-13 .container-testimonial h2 {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.post-13 .temoignage {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* backgroung canette */
+
+.canette {
+    background-image: url(/wp-content/uploads/2023/12/Group-8-e1704024441847.png);
+    background-repeat: repeat-x;
+    height: 161px;
+    background-color: white;
+    background-position-y: bottom;
+}
+
+.post-15 .canette {
+    background-color: var(--color-pink-bg);
+}
+
+/* nous rencontrer */
+
+.post-15 .container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0px;
+    background: var(--color-pink-bg);
+    position: relative;
+}
+
+.post-15 .fleur {
+    position: absolute;
+    top: 71px;
+    left: 10%;
+    z-index: 0;
+}
+
+.post-15 .container-hero p {
+    max-width: 700px;
+}
+
+.post-15 .container-hero h1 {
+    padding-top: 186px;
+    z-index: 1;
+}
+
+.post-15 .ellipse {
+    height: 100px;
+    width: 100%;
+    background-color: var(--color-pink-bg);
+    border-radius: 0 0 80% 80%;
+}
+
+.post-15 .container-team {
+    position: relative;
+    min-height: 450px;
+    padding-top: 20px;
+}
+
+.post-15 .feuille {
+    position: absolute;
+    bottom: 0%;
+    right: 60px;
+    z-index: 0;
+    width: 192px;
+}
+
+.post-15 .container-acf {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    max-width: 768px;
+}
+
+/* form nous-rencontrer */
+
+.post-15 .feuille2 {
+    position: relative;
+    top: -250px;
+    right: 180px;
+    z-index: 1;
+    height: 0px;
+    width: 185px;
+}
+
+.post-15 .wpcf7 {
+    max-width: 427px;
+}
+
+.post-15 .form-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--color-pink-bg);
+}
+
+.post-15 .your-name,
+.your-email {
+    max-width: 383px;
+    width: 100%;
+    height: 71px;
+    border: 0px;
+    border-radius: 7px !important;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+    margin-top: 13px;
+}
+
+.post-15 .your-message {
+    max-width: 383px;
+    width: 100%;
+    height: 237px;
+    border: 0px;
+    border-radius: 7px !important;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+    margin-top: 13px;
+    z-index: 2;
+    position: sticky;
+}
+
+.post-15 .form-contact h2 {
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 66px;
+    margin-bottom: 45px;
+}
+
+.post-15 .form-contact p {
+    margin: 22px;
+    font-size: 20px;
+}
+
+.post-15 .form-contact input {
+    padding-left: 13px;
+    font-family: Syne;
+    font-size: 20px;
+}
+
+.post-15 .form-contact textarea {
+    padding-left: 13px;
+    padding-top: 13px;
+    font-family: Syne;
+    font-size: 20px;
+}
+
+.post-15 .btn-envoyer {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.post-15 .btn-envoyer p {
+    margin: 0px;
+}
+
+.post-15 .btn-envoyer .envoyer {
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.post-15 .envoyer {
+    display: flex;
+    width: 198px;
+    height: 55px;
+    padding: 0px !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px !important;
+    border: 0px;
+    background: #E0B9B4;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+.post-15 .envoyer:hover {
+    cursor: pointer;
+}
+
+/* page commander */
+
+.post-17 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: var(--color-green);
+}
+
+.post-17 h1 {
+    max-width: 860px;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.post-17 h2 {
+    padding: 40px 0px 40px 0px;
+    color: #FFF;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.post-17 .container-gouts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 860px;
+}
+
+.post-17 .container-form {
+    max-width: 860px;
+    width: auto;
+    margin: 15px;
+    border-top: 1px solid white;
+}
+
+/* form commander */
+
+.form-commander {
+    max-width: 860px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.form-commander .container-quantity {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.form-commander .container-quantity p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-commander .container-quantity .quantity {
+    max-width: 192px;
+    width: 100%;
+}
+
+.form-commander .container-quantity label {
+    display: none;
+}
+
+.form-commander .container-quantity input {
+    display: flex;
+    justify-content: center;
+    width: 39px;
+    height: 56px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 0px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 39px;
+    font-family: Syne;
+}
+
+.form-commander .form-txt {
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+
+.form-commander .information {
+    width: 50%;
+    border-right: 1px solid white;
+    padding-right: 50px;
+}
+
+.form-commander .livraison {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.form-commander h2 {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.form-commander p {
+    color: #FFF;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-commander .form-txt input {
+    width: 100%;
+    height: 71px;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+    border: 0px;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    padding-left: 13px;
+    font-family: Syne;
+    font-size: 20px;
+}
+
+.form-commander .form-txt .no-margin {
+    margin-bottom: 0px;
+}
+
+.form-commander .btn-envoyer {
+    display: flex;
+    justify-content: center;
+}
+
+.form-commander .btn-commander {
+    display: flex;
+    width: 198px;
+    height: 55px;
+    padding: 9px 57px 9px 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 0px;
+    background: #E0B9B4;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 44px;
+}
+
+.btn-commander:hover {
+    cursor: pointer;
+}
+
+/* Responsive */
+
+/* tablets, (less than 1200px) */
+
+@media (max-width: 1200px) {
+
+    .post-15 .feuille {
+        right: 10px;
+        width: 150px;
+    }
+
+}
+
+/* tablets, (less than 900px) */
+
+@media (max-width: 900px) {
+    .post-15 .feuille {
+        display: none;
+    }
+}
+
+/* tablets, (less than 860px) */
+
+@media (max-width: 860px) {
+
+    .acf__gouts-petit-txt {
+        font-size: 14px;
+    }
+
+    .post-15 .feuille {
+        display: none;
+    }
+
+}
+
+/* Tablets (less than 768px) */
+
+@media (max-width: 768px) {
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+    }
+
+    .has-xl-font-size {
+        font-size: 20px !important;
+        overflow-wrap: normal;
+    }
+
+    h2 .has-large-font-size {
+        font-size: 18px !important;
+    }
+
+    .post-15 .container-acf {
+        justify-content: space-evenly;
+    }
+
+    .post-17 h1 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .post-17 h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .post-17 .form-txt {
+        margin-top: 20px;
+    }
+
+    .post-17 .information {
+        padding-right: 20px;
+    }
+
+    .post-17 .livraison {
+        padding-left: 20px;
+    }
+
+    .form-commander {
+        padding-bottom: 30px !important;
+    }
+
+
+}
+
+/* Mobil L (phones, less than 540px) */
+
+@media (max-width: 540px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        height: fit-content;
+    }
+
+    header #menu a {
+        height: 40px;
+        padding: 10px;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    .fleur {
+        display: none;
+    }
+
+    .post-15 .container-hero h1 {
+        padding-top: 50px;
+    }
+
+    .post-17 .container-gouts {
+        display: none;
+    }
+
+    .form-commander .container-quantity label {
+        display: flex;
+    }
+
+    .post-17 .container-quantity {
+        flex-direction: column;
+    }
+
+    .form-commander .container-quantity .quantity {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .form-commander .quantity p {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form-commander .container-quantity input {
+        margin: 10px;
+    }
+
+    .post-17 .form-txt {
+        flex-direction: column;
+    }
+
+    .post-17 .information {
+        width: 100%;
+        padding-right: 0px;
+        border-right: 0px;
+    }
+
+    .post-17 .livraison {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+}
+
+/* Mobil L (phones, less than 425px) */
+
+@media (max-width: 425px) {
+
+    .feuille2 {
+        display: none;
+    }
+
+    .acf__gouts-txt {
+        font-size: 32px;
+    }
+
+    h1.has-background {
+        padding: 1em;
+    }
+}

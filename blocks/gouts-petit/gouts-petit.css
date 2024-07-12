@@ -1,0 +1,27 @@
+.acf__gouts-petit {
+    position: relative;
+    max-width: 192px;
+    height:128px;
+}
+
+.acf__gouts-petit-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+    max-width: 85%;
+}
+
+.acf__gouts-petit img{
+    width: 100%;
+}
